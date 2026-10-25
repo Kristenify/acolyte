@@ -23,4 +23,6 @@ __pycache__/
 # déployée (app/) de toute façon, cf. README.md. Gardés en local
 # uniquement pour l'exploration de direction artistique.
 assets/external/
+
+# Notes internes, jamais publiées
 TODO.md

@@ -70,7 +70,7 @@ Géométrie (coordonnées absolues dans le canvas) :
 | Biscuit (chat) | 128 | 768 | 144 | 64 | `#E0D2AE` |
 | Ombres au sol | 96 / 912 | 640 | 448 / 320 | 24 | `rgba(10,14,26,.35)` |
 
-**Règles de rendu :** une seule source de lumière (la fenêtre, à gauche), ombres longues et douces. **Aucun contour sur les meubles** ; le contour foncé est réservé aux personnages pour qu'ils se détachent du décor. Palette limitée à six couleurs (voir tokens `leon.*`) : toute couleur supplémentaire doit en remplacer une, pas s'ajouter.
+**Règles de rendu :** une seule source de lumière (la fenêtre, à gauche), ombres longues et douces. **Aucun contour sur les meubles** ; le contour foncé est réservé aux personnages pour qu'ils se détachent du décor. Palette limitée à six couleurs (voir tokens `theo.*`) : toute couleur supplémentaire doit en remplacer une, pas s'ajouter.
 
 **Le circuit au sol est fonctionnel** : la voiture posée dessus avance d'un cran par matin validé. C'est une progression lisible sans savoir lire un chiffre. Prévoir ~20 positions le long de l'anneau.
 
@@ -282,7 +282,7 @@ Reste à concevoir : l'animation de succès de fin de routine et l'attente de l'
 ```
 Profile
   id, prénom, âge
-  skin            : 'iris' | 'leon'          // palette + décor
+  skin            : 'iris' | 'theo'          // palette + décor
   calibration     : { contrast: 'soft'|'medium'|'high',
                       density: 1|3|'all',
                       motion: 'none'|'subtle'|'lively',
@@ -381,26 +381,26 @@ Local d'abord, hors ligne par défaut. Aucune donnée d'enfant ni de praticienne
 
 | Nom | Hex |
 |---|---|
-| `leon.bg` | `#1E2740` |
-| `leon.bg.alt` | `#212B47` |
-| `leon.deep` | `#141C33` |
-| `leon.outline` | `#0E1424` |
-| `leon.surface` | `#263050` |
-| `leon.surface.raised` | `#2A3556` |
-| `leon.surface.active` | `#33406A` |
-| `leon.surface.high` | `#4A5880` |
-| `leon.accent` | `#F0952F` |
-| `leon.accent.voice` | `#E08A3C` |
-| `leon.accent.shadow` | `#8A4E1C` |
-| `leon.accent.dark` | `#C97622` |
-| `leon.accent.edge` | `#FFF6E8` |
-| `leon.text` | `#E8EDF7` |
-| `leon.text.soft` | `#C3CEE6` |
-| `leon.text.mute` | `#A9B6D4` |
-| `leon.text.faint` | `#8C9BBC` |
-| `leon.wood` | `#6B4A2E` / `#5E4028` / `#8A6039` |
-| `leon.light` | `#F3C98B` |
-| `leon.track` | `#3A3A44` |
+| `theo.bg` | `#1E2740` |
+| `theo.bg.alt` | `#212B47` |
+| `theo.deep` | `#141C33` |
+| `theo.outline` | `#0E1424` |
+| `theo.surface` | `#263050` |
+| `theo.surface.raised` | `#2A3556` |
+| `theo.surface.active` | `#33406A` |
+| `theo.surface.high` | `#4A5880` |
+| `theo.accent` | `#F0952F` |
+| `theo.accent.voice` | `#E08A3C` |
+| `theo.accent.shadow` | `#8A4E1C` |
+| `theo.accent.dark` | `#C97622` |
+| `theo.accent.edge` | `#FFF6E8` |
+| `theo.text` | `#E8EDF7` |
+| `theo.text.soft` | `#C3CEE6` |
+| `theo.text.mute` | `#A9B6D4` |
+| `theo.text.faint` | `#8C9BBC` |
+| `theo.wood` | `#6B4A2E` / `#5E4028` / `#8A6039` |
+| `theo.light` | `#F3C98B` |
+| `theo.track` | `#3A3A44` |
 
 ### Typographie
 
